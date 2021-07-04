@@ -1,8 +1,8 @@
 guru/qa/tests/FirstTest.java
  guru.qa.tests.FirstTest
-guru/qa/docs/CssXpathExamples.java
- guru.qa.docs.CssXpathExamples
 guru/qa/tests/SearchTests.java
  guru.qa.tests.SearchTests
 guru/qa/tests/TextBoxTests.java
  guru.qa.tests.TextBoxTests
+guru/qa/docs/CssXpathExamples.java
+ guru.qa.docs.CssXpathExamples
