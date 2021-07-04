@@ -1,4 +1,4 @@
-package guru.qa;
+package guru.qa.tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class textBoxTests {
+public class TextBoxTests {
 
     @BeforeAll
     static void setup() {
@@ -16,7 +16,7 @@ public class textBoxTests {
     }
 
     @Test
-    void positiveFillTest() {
+     void positiveFillTest() {
         open("/text-box");
         $("#userName").setValue("Anna");
         $("#userEmail").setValue("anna@mail.org");
