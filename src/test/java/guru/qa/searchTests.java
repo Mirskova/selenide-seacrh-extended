@@ -1,13 +1,8 @@
-package guru.qa;
-
-import jdk.internal.org.jline.utils.InfoCmp;
 import org.junit.jupiter.api.Test;
 
-import java.beans.PropertyEditor;
-
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selectors.byName;
 import static com.codeborne.selenide.Selenide.*;
-import static jdk.internal.org.jline.utils.InfoCmp.Capability.byName;
 
 public class SearchTests {
 
@@ -19,3 +14,4 @@ public class SearchTests {
 
         $("#search").shouldHave(text("selenide.org"));
     }
+}
