@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="guru.qa.FirstTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-04T10:57:31" hostname="OLGA-PC" time="0.022">
-  <properties/>
-  <testcase name="firstTest()" classname="guru.qa.FirstTest" time="0.022"/>
-  <system-out><![CDATA[Hello world!
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
